@@ -23,6 +23,7 @@ public class PlayerControl : MonoBehaviour
     private void PlayerMovement()
     {
         if (Input.GetKey(KeyCode.RightArrow))
+       
         {
             transform.position += Vector3.right * speed * Time.deltaTime;
         }
